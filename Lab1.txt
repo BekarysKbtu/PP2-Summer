@@ -1,0 +1,317 @@
+Home:
+Question: What is a correct way to declare a Python variable?
+Answer: x = 5
+
+Question: You can declare string variables with single or double quotes.
+x = "John"
+# is the same as
+x = 'John'
+Answer: True
+
+Question: Variable names are not case-sensitive.
+a = 5
+# is the same as
+A = 5
+Answer: False
+
+Question: Select the correct functions to print the data type of a variable:
+Answer: print(type(myvar))
+
+Get started:
+Question: What is the correct file extension for Python files?
+Answer: .py
+
+Question: What is a correct command line syntax for checking if python is installed on your computer? (And also to check the Python version)
+Answer: python --version
+
+Question: What is a correct syntax to exit the Python command line interface?
+Answer: exit()
+
+Question: True or False: Indentation in Python is for readability only.
+Answer: False
+
+Question: Insert the missing part of the code below to output "Hello World".
+Answer: print("Hello World")
+
+Question: Complete the code block, print "YES" if 5 is larger than 2.
+Hint: remember the indentation.
+
+Answer: 
+if 5 > 2:
+ print("YES")
+
+Comments:
+Question: Which character is used to define a Python comment:
+Answer: #
+
+Question: Comments in Python are written with a special character, which one?
+Answer: #This is a comment
+
+Question: Use a multiline string to make the a multiline comment:
+Answer:
+"""
+This is a comment
+written in 
+more than just one line
+"""
+
+Variable: 
+Question: What is a correct way to declare a Python variable?
+Answer: x = 5
+
+Question: You can declare string variables with single or double quotes.
+x = "John"
+# is the same as
+x = 'John'
+Answer: True
+
+Question: Variable names are not case-sensitive.
+a = 5
+# is the same as
+A = 5
+Answer: False
+
+Question: Select the correct functions to print the data type of a variable:
+Answer: print(type(myvar))
+
+Variable names:
+Question: Which is NOT a legal variable name?
+Answer: my-var = 20
+
+Question: Create a variable named carname and assign the value Volvo to it.
+Answer: carname = "Volvo"
+
+Question: Create a variable named x and assign the value 50 to it.
+Answer: x = 50
+
+Multiple Variable Values:
+Question: What is a correct syntax to add the value 'Hello World', to 3 variables in one statement?
+Answer: x = y = z = 'Hello World'
+
+Question: Insert the correct syntax to assign values to multiple variables in one line:
+Answer: x, y, z = "Orange", "Banana", "Cherry"
+
+Question: Consider the following code:
+fruits = ['apple', 'banana', 'cherry']
+a, b, c = fruits
+print(a)
+What will be the result of a
+Answer: apple
+
+Output Variable:
+Question: Consider the following code:
+print('Hello', 'World')
+What will be the printed result?
+Answer: Hello World
+
+Question: Consider the following code:
+a = 'Hello'
+b = 'World'
+print(a + b)
+What will be the printed result?
+Answer: HelloWorld
+
+Question: onsider the following code:
+a = 4
+b = 5
+print(a + b)
+What will be the printed result?
+Answer: 9
+
+Global Variable:
+Question: Consider the following code:
+x = 'awesome'
+def myfunc():
+  x = 'fantastic'
+myfunc()
+print('Python is ' + x)
+What will be the printed result?
+Answer: Python is 
+
+Question: Insert the correct keyword to make the variable x belong to the global scope.
+
+Answer:
+def myfunc():
+  global x
+  x = "fantastic"
+
+Question: Consider the following code:
+x = 'awesome'
+def myfunc():
+  global x
+  x = 'fantastic'
+myfunc()
+print('Python is ' + x)
+What will be the printed result?
+Answer: Python is fantastic
+
+Question: If x = 5, what is a correct syntax for printing the data type of the variable x?
+Answer: print(type(x))
+
+Question: The following code example would print the data type of x, what data type would that be?
+
+x = 5
+print(type(x))
+Answer: int
+
+Question: The following code example would print the data type of x, what data type would that be?
+
+x = "Hello World"
+print(type(x))
+Answer: str 
+
+Question: The following code example would print the data type of x, what data type would that be?
+
+x = 20.5
+print(type(x))
+Answer: float
+
+Question: The following code example would print the data type of x, what data type would that be?
+
+x = ["apple", "banana", "cherry"]
+print(type(x))
+Answer: list
+
+Question: The following code example would print the data type of x, what data type would that be?
+
+x = ("apple", "banana", "cherry")
+print(type(x))
+Answer: tuple
+
+Question: The following code example would print the data type of x, what data type would that be?
+
+x = {"name" : "John", "age" : 36}
+print(type(x))
+Answer: dict
+
+Question: The following code example would print the data type of x, what data type would that be?
+
+x = True
+print(type(x))
+Answer: bool
+
+Numbers:
+Question: Which is NOT a legal numeric data type in Python:
+Answer: long
+
+Question: Insert the correct syntax to convert x into a floating point number.
+Answer: 
+x = 5
+x = float(x)
+
+Question: Insert the correct syntax to convert x into a integer.
+Answer:
+x = 5.5
+x = int(x)
+
+Question: Insert the correct syntax to convert x into a complex number.
+Answer:
+x = 5
+x = complex(x)
+
+Casting:
+Question: What will be the result of the following code:
+print(int(35.88))
+Answer: 35
+
+Question: What will be the result of the following code:
+print(float(35))
+Answer: 35.0
+
+Question: hat will be the result of the following code:
+print(str(35.82))
+Answer: 35.82
+
+Strings:
+Question: What will be the result of the following code:
+x = 'Welcome'
+print(x[3])
+Answer: c
+
+Question: Use the len function to print the length of the string.
+
+Answer:
+x = "Hello World"
+print(len(x))
+
+Question: Get the first character of the string txt.
+Answer:
+txt = "Hello World"
+x = txt[0]
+
+Question: Insert the correct keyword to check if the word 'free' is present in the text:
+Answer:
+txt = 'The best things in life are free!'
+if 'free' in txt:
+  print('Yes, free is present in the text.')
+
+Slicing Strings:
+Question: What will be the result of the following code:
+x = 'Welcome'
+print(x[3:5])
+Answer: co
+
+Question: Get the characters from index 2 to index 4 (llo).
+Answer:
+txt = "Hello World"
+x = txt[2:5]
+
+Question: What will be the result of the following code:
+x = 'Welcome'
+print(x[3:])
+Answer: come
+
+Modify Strings:
+Question: What is a correct syntax to print a string in upper case letters?
+Answer: 'Welcome'.upper()
+
+Question: Return the string without any whitespace at the beginning or the end.
+Answer:
+txt = " Hello World "
+x = txt.strip()
+
+Question: Convert the value of txt to upper case.
+Answer: 
+txt = "Hello World"
+txt = txt.upper()
+
+Question:Convert the value of txt to lower case.
+Answer:
+txt = "Hello World"
+txt = txt.lower()
+
+Question: Replace the character H with a J.
+Answer:
+txt = "Hello World"
+txt = txt.replace("H", "J")
+
+Concatenate Strings:
+Question: What is a correct syntax to merge variable x and y into variable z?
+Answer: z = x + y
+
+Question: What will be the result of the following code:
+x = 'Welcome'
+y = 'Coders'
+print(x + y)
+Answer: WelcomeCoders
+
+Question: Consider this code:
+a = 'Join'
+b = 'the'
+c = 'party'
+What is a correct syntax to print 'Join the party'?
+Answer: print(a + ' ' + b + ' ' + c)
+
+Format Strings:
+Question: If x = 9, what is a correct syntax to print 'The price is 9.00 dollars'?
+Answer: print(f'The price is {x:.2f} dollars')
+
+Question: Insert the correct syntax to add a placeholder for the age parameter.
+Answer:
+age = 36
+txt = f"My name is John, and I am {age}"
+print(txt)
+
+Question: What will be the result of the following code:
+print(f'The price is {2 + 3} dollars')
+Answer: The price is 5 dollars
